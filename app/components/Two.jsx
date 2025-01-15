@@ -10,6 +10,11 @@ import Gtouristvisa from "./Gtouristvisa";
 import Gdependentvisa from "./Gdependentvisa";
 import Gselfempvisa from "./Gselfempvisa";
 import Gfreelance from "./Gfreelance";
+import UKBvisa from "./UKBvisa";
+import UKTvisa from "./UKTvisa";
+import UKinnovatorvisa from "./UKinnovatorvisa";
+import UKsponvisa from "./UKsponvisa";
+import UKstudvisa from "./UKstudvisa";
 
 
 
@@ -64,7 +69,6 @@ const countriesData = {
       ]
     },
     "Migrate to United Kingdom": {
-      description: "The UK is a popular destination for students and professionals. It provides numerous visa options and has a rich cultural heritage.",
       image: "https://example.com/uk-image.jpg", // Add the image URL here
       visaTypes: [
         "UK Student Visa",
@@ -267,6 +271,7 @@ const Migrate = () => {
                   </div>
                   {/* Render Content component only for "Migrate to Germany" */}
               {selectedCountry === "Migrate to Germany" && <Content />}
+              {selectedCountry === "Migrate to United Kingdom" && <UKstudvisa />}
                 </>
               ) : (
                 <>
@@ -282,9 +287,11 @@ const Migrate = () => {
               {selectedCountry === "Migrate to Germany" && selectedVisa === "Germany Dependent Visa" && <Gdependentvisa />}
               {selectedCountry === "Migrate to Germany" && selectedVisa === "Germany Self Employment Visa" && <Gselfempvisa />}
               {selectedCountry === "Migrate to Germany" && selectedVisa === "Germany Freelance Visa" && <Gfreelance />}
-              
-              
-             
+              {selectedCountry === "Migrate to United Kingdom"  && selectedVisa === "UK Business Visa" && <UKBvisa />}
+              {selectedCountry === "Migrate to United Kingdom" && selectedVisa === "UK Tourist Visa" && <UKTvisa /> }
+              {selectedCountry === "Migrate to United Kingdom" && selectedVisa === "UK Innovator Visa" && <UKinnovatorvisa />}
+             {selectedCountry === "Migrate to United Kingdom" && selectedVisa === "UK Sponsorship Visa" && <UKsponvisa />}
+             {selectedCountry === "Migrate to United Kingdom" && selectedVisa === "UK Student Visa" && <UKstudvisa />}
                 </>
                 
                 
