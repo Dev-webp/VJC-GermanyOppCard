@@ -31,22 +31,25 @@ const Content = () => {
           <div className="flex flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0" style={{ marginBottom: '20px' }}>
   <div className="flex-shrink-0 mx-auto lg:mx-0">
     <img
-      src="/UKtoruistimage.png"
+      src="/uktourist.webp"
       alt="UK Tourist Image"
       className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-80 lg:h-70 object-contain shadow-lg rounded-lg"
     />
   </div>
 
   <div>
+    
     <p style={{ marginBottom: '20px' }}>
       At VJC Overseas, we understand the complexities involved in applying for a UK Tourist Visa, and we`re here to guide you through every step of the process to ensure a hassle-free experience. Below is everything you need to know about the UK Tourist Visa, from eligibility criteria to the application process.
     </p>
+    </div>
+    </div>
     <h3 style={{ color: "black", fontWeight: "bold",marginBottom:'10px'}}>What is a UK Tourist Visa?</h3>
     <p style={{ marginBottom: '20px' }}>
       A UK Tourist Visa is a short-term visa that allows non-UK residents to visit the UK for up to 6 months. This visa is ideal for those looking to travel for tourism, to visit family or friends, or to engage in short-term business activities. The visa permits multiple entries within the validity period, giving you flexibility to plan your visit.
     </p>
-  </div>
-</div>
+  
+
 
 <h3 style={{ color: "black", fontWeight: "bold", marginBottom: '20px' }}>Who Needs a UK Tourist Visa?</h3>
 <p style={{ marginBottom: '20px' }}>
