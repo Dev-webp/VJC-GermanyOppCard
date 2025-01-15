@@ -28,7 +28,7 @@ const Content = () => {
           <div className="flex flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0" style={{ marginBottom: '20px' }}>
   <div className="flex-shrink-0 mx-auto lg:mx-0">
     <img
-      src="/UKsponimage.jpg"
+      src="uksponsorship.jpg"
       alt="UK Business Visa Image"
       className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-80 lg:h-70 object-contain shadow-lg rounded-lg"
     />
@@ -37,14 +37,15 @@ const Content = () => {
     <p style={{ marginBottom: '20px' }}>
       If you are considering moving to the UK for work or study, understanding the details of the UK Sponsorship Visa is crucial. At VJC Overseas, we provide expert guidance and support to ensure that your visa application process is as smooth and successful as possible.
     </p>
+    </div>
+</div>
+
 
     <h3 style={{ color: "black", fontWeight: "bold", marginBottom: '20px' }}>What is the UK Sponsorship Visa?</h3>
     <p style={{ marginBottom: '20px' }}>
       The UK Sponsorship Visa is a category of visa that requires an employer or educational institution in the UK to act as your sponsor. Depending on your specific situation, there are several types of Sponsorship Visas, including work visas and student visas, designed to attract skilled individuals from around the world.
     </p>
-  </div>
-</div>
-
+  
           <p style={{ marginBottom: '20px' }}>
             Work Visas are primarily for individuals who have secured a job offer from a licensed UK employer, while Student Visas are designed for those who have been accepted into a course of study at a recognized UK educational institution. In both cases, the sponsor must hold a valid sponsorship license and be authorized to issue a certificate of sponsorship to the applicant.
           </p>
